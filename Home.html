@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="homeStyle.css">
+
+   <style>
+     
+        .maindiv{
+            width: 70%;
+            height: 400px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url('images/image5.jpg');
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px white;
+            animation:slider 9s infinite linear;
+           } 
+      body {
+          background-color: rgba(27,31,34,0.850);
+          }
+       @keyframes slider{
+               0%{background-image: url('images/image5.jpg'); }
+               35%{background-image: url('images/image6.jpg') }
+               70%{background-image: url('images/image8.jpg') }
+       }
+
+  </style>
+
+
+</head>
+<body>
+
+<nav>
+  <img class="img-pos" src="images/gold 1015_12.jpg"></img>
+  <ul id="menu">
+       <li><a href="#">Jewellery</a></li>
+       <li><a href="#">Collection</a>
+	<ul>
+                      <li><a href="#">Exotic Collection</a></li>
+                      <li><a href="#">Private Collection</a></li>
+	     <li><a href="#">Best Collection</a></li>
+                  </ul>
+       </li>
+       <li><a href="#">New Arrivals</a></li>
+       <li><a href="#">Standards</a></li>
+       <li><a href="#">Noval Diaries</a></li>
+       <li><a href="#">About us</a></li>
+       <li style="padding-left:730px"><a href="login.html">Login</a></li>
+   </ul>
+</nav>
+
+
+
+<div class="maindiv">
+</div>
+
+
+</body>
+</html>
